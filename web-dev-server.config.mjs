@@ -6,6 +6,7 @@ import _commonjs from '@rollup/plugin-commonjs';
 const commonjs = fromRollup(_commonjs);
 
 export default {
+  open: true,
   nodeResolve: true,
   appIndex: 'index.html',
   rootDir: '.',
