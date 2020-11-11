@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wds"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/peschee/apollo-dev-server-test/issues"
   },
-  "homepage": "https://github.com/peschee/apollo-dev-server-test#readme"
+  "homepage": "https://github.com/peschee/apollo-dev-server-test#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@web/dev-server": "0.0.19",
+    "@web/dev-server-esbuild": "^0.2.6",
+    "@web/dev-server-rollup": "^0.2.10"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.2.5",
+    "graphql": "^15.4.0"
+  }
 }
